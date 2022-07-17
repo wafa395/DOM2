@@ -1,5 +1,6 @@
 function push(){
     let number = document.getElementById('num').value;
+    let warning = document.getElementById('warning');
     console.log(number);
 
     let stackElement = document.createElement('div');
